@@ -1,0 +1,15 @@
+spring:
+  # ???????????minio?????
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+storage:
+  type: minio
+  minio:
+    url: xxxxxxxxxxx
+    endpoint: http://127.0.0.1:9000
+    accessKey:  minioadmin
+    secretKey:  minioadmin
+    bucketName: test
