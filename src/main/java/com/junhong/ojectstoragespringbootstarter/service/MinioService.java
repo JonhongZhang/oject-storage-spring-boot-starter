@@ -30,6 +30,7 @@ import io.minio.StatObjectResponse;
 import io.minio.UploadObjectArgs;
 import io.minio.errors.MinioException;
 import io.minio.messages.Item;
+import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -50,8 +51,8 @@ import java.util.stream.StreamSupport;
 @Service
 public class MinioService {
 
-    @Autowired
     private final MinioClient minioClient;
+
 //    private final MinioConfigurationProperties configurationProperties;
     private final MinioProperties configurationProperties;
 

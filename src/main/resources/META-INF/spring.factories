@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.junhong.ojectstoragespringbootstarter.config.MinioAutoConfiguration,\
+com.junhong.ojectstoragespringbootstarter.config.MinioConfiguration
